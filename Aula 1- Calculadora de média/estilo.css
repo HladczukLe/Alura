@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+*{margin: 0; padding: 0;}
+body {
+    font-family: 'Rajdhani', sans-serif;
+    min-height: 900px;
+    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+    background-color: #0E7886;
+    background-size: 75vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  h1{
+    font: 3rem bold ;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  .page-logo {
+    width: 200px;
+  }
+  .container > p{
+    color: #ffffff;
+    padding: 10px;
+  }
+  input{
+    width: 100px;
+    border-radius: 5px;
+  }
+  .resultado {
+    font: 1.5rem Arial;
+    text-align: center;
+  }
+  .reprovacao{
+    color: #801c1c;
+    font: 2rem bold;
+  }
+  .aprovacao{
+    color: #1de70a;
+    font: 2rem bold;
+  }
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
