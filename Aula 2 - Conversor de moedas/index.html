@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="page-title">
+        Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+        Descubra os valores em dolar U$, euro € ou libra £
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <p>
+        <label for="moeda">Converter de: </label>
+        <select id="moeda1">
+        <option value="selecione">--Selecione--</option>
+        <option value="real">Real</option>
+        <option value="dolar">Dólar</option>
+        <option value="euro">Euro</option>
+        <option value="libra">Libra</option>
+        <option value="iene">Iene</option>
+        </select>
+    </p>
+    
+    <p>
+        <label for="moeda">Para: </label>
+        <select id="moeda2">
+        <option value="selecione">--Selecione--</option>
+        <option value="real">Real</option>
+        <option value="dolar">Dólar</option>
+        <option value="euro">Euro</option>
+        <option value="libra">Libra</option>
+        <option value="iene">Iene</option>
+        </select>
+    </p>
+    
+    <label for="valor">Insira o montante a ser convertido</label><br>
+    <input type="number" id="valorMontante" size="2" /><br>
+    
+    <label for="valor">Insira o valor da moeda para conversão</label><br>
+    <input type="number" id="valorMoeda" size="2" /><br>
+    <button type="submit" onclick="Converter()">Converter</button>
+    <h2 id="valorFinal"></h2>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</html>
