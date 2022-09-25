@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de temperatura
+        </h1>
+        <p class="page-subtitle">
+            Converta de Celsius para a temperatura desejada!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <p>
+            <label for="escala">De: </label>
+            <select id="escala1">
+            <option value="selecione">--Selecione--</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            </select>
+        </p>
+        <p>
+            <label for="escala">Para: </label>
+            <select id="escala2">
+            <option value="selecione">--Selecione--</option>
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            </select>
+        </p>
+        <p>
+            <input type="number" id="graus">
+        </p>
+        <p>
+            <input type="button" value="Converter" onclick="converter()">
+        </p>
+        <p class="resultado">
+            Aguardando o resultado...
+        </p>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+  <script src="script.js"></script>
+</html>
