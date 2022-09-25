@@ -1,4 +1,4 @@
-//Projeto ainda não finalizado
+//Projeto ainda não finalizado || Still not finished 
 
 function Converter() {
     var moeda1 = document.querySelector("select#moeda1").value;
