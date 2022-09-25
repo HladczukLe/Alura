@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+*{margin: 0; padding: 0;}
+body {
+    font-family: 'Rajdhani', sans-serif;
+    min-height: 500px;
+    background-image: url('https://static.wixstatic.com/media/b93bf1_a0ebe13b68f742f0b7c5db612494afa8~mv2.gif');
+    background-color: #5F85FF;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  h1{
+    font: 3rem bold ;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+    font-size: 1.3rem;
+  }
+  .page-logo {
+    width: 200px;
+  }
+  .container > p{
+    color: #ffffff;
+    padding: 10px;
+  }
+  input{
+    width: 100px;
+    border-radius: 5px;
+  }
+  .resultado {
+    font: 1.7rem bold;
+    text-align: center;
+  }
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
